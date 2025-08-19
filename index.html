@@ -1,39 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testes de Javascript</title>
     <link rel="stylesheet" href="_css/main.css">
+    <link rel="shortcut icon" href="_imagens/Logo JavaScript.png" type="">
 </head>
+
 <body>
     <!-- ALERTA: os comentários explicam o que estão ABAIXO dele -->
 
 
     <!-- Parágrafo de escrita -->
 
-    <b><p class="exercicio">Exercício 04</p></b>
+    <b>
+        <p class="exercicio">Exercício 04</p>
+    </b>
 
+
+    <br><br>
+    
     <!-- Os botões, com os nomes auto explicativos (value) -->
-
+    
     <button class="confirm" onclick="alert('Confirmado com sucesso!!')">Confirma</button>
     <br><br>
     <button class="cancel" onclick="alert('Cancelado com sucesso!!')">Cancela</button>
     <br><br>
     <button class="limpa" onclick="alert('Limpado com sucesso!! não sei oq limpou, mas ta limpado ')">Limpa</button>
-    
+    <br><br>
+    <!-- imagem do javascript -->
+
+    <img id="js" src="_imagens/Logo JavaScript.png" alt="imagem do JavaScript" title="Oia o javaScript ai"
+        onclick="alert('Esta é a imagem da logo do JavaScript, ficou feliz de saber isso né??')">
+<!-- pular linha -->
+
+    <br><br><br>
+
+<!-- A UNICA linha de javascript, serve para copiar o ti -->
 
 
-<br><br><br>
-
-<img src="" alt="">
-
+    <script>
+        document.write("<p class='titulo2'<img id='js'>" + document.title + "</p>")
 
 
-<script>
-    document.write("<p class='titulo2'>" + document.title + "</p>")
-</script>
 
-
+    </script>
+    <br><br>
+    <button onclick="window.print()">Clique aqui para imprimir a página</button>
 </body>
+
 </html>
