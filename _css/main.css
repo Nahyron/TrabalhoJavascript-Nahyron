@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0 auto;
+}
+
+.exercicio{
+   color: blue;
+   font-family: arial;
+   text-decoration: underline;
+   font-size: 32px;
+}
+
+
+.confirm{
+    background-color: green;
+    color: white;
+}
+
+.cancel{
+    background-color: red;
+    color: white;
+}
+
+.limpa{
+    background-color: yellow;
+    color: black;
+}
+
+button{
+    padding: 50px 38px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    color: red;
+    font-family: "Roboto";
+    border: 48px solid purple;
+}
